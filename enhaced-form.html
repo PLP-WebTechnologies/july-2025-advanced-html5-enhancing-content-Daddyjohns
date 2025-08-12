@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enhanced Form Page</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Enhanced HTML5 Form Example</h1>
+    <p>Demonstrating structured content and modern form features.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Media Section</h2>
+      <p>Here's an image and a video embedded below:</p>
+      <img src="https://via.placeholder.com/400x200" alt="Placeholder Image" width="100%" />
+      <video controls width="100%" poster="https://via.placeholder.com/400x200">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section>
+      <h2>List of Features</h2>
+      <ul>
+        <li>HTML5 semantic structure</li>
+        <li>Form validation and accessibility</li>
+        <li>Use of media elements</li>
+        <li>Responsive design and styling</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>User Registration Form</h2>
+      <form action="#" method="post" autocomplete="on">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="John Doe" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="john@example.com" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="6" placeholder="Enter a secure password"
+          required />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" />
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="">Select a country</option>
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="uk">United Kingdom</option>
+        </select>
+
+        <label for="bio">Short Bio:</label>
+        <textarea id="bio" name="bio" placeholder="Tell us something about yourself..." rows="4"></textarea>
+
+        <label>
+          <input type="checkbox" name="terms" required />
+          I agree to the terms and conditions
+        </label>
+
+        <label for="newsletter">Subscribe to newsletter:</label>
+        <input type="checkbox" id="newsletter" name="newsletter" checked readonly />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Sample Data Table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>john owino</td>
+            <td>owinoowiti@gmail.com</td>
+            <td>KENYA</td>
+          </tr>
+          <tr>
+            <td>Bob Johnson</td>
+            <td>bob@example.ca</td>
+            <td>Canada</td>
+          </tr>
+          <tr>
+            <td>Charlie Brown</td>
+            <td>charlie@domain.co.uk</td>
+            <td>UK</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Enhanced Form Demo. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
